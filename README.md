@@ -1,9 +1,5 @@
 # AMAZON CLONE #
 
-Welcome to Amazon Clone
-Author: Parth Dubal
-Big shout out to CleverProgrammer. It wouldn't have been possible without them.
-
 ## Technologies used ##
 
 1. React
@@ -28,20 +24,5 @@ Big shout out to CleverProgrammer. It wouldn't have been possible without them.
 7. Payment system using Stripe
 8. View your orders
 
-(Adding more features soon.... )
 
-## Live demo ##
 
-https://clone-c18a0.web.app/
-
-## WARNING ##
-
-DO NOT USE YOUR ORIGINAL CREDIT CARD INFORMATION! USE 4242 4242 4242 4242 AS CREDIT CARD NUMBER, 04/24 FOR DATE, 424 FOR CVV AND 42424 FOR POSTAL CODE
-I WON'T BE RESPONSIBLE IF YOU INTENTIONALLY OR UNINTENTIONALLY ENTER YOUR ORIGINAL CREDIT CARD INFORMATION.
-
-## Contact ##
-
-Email: dubalparth@gmail.com
-Facebook: https://www.facebook.com/neuroticTechnopyhle
-Instagram: parth.dubal01
-Github: https://www.github.com/Parth00
