@@ -25,4 +25,4 @@
 8. View your orders
 
 
-
+This is a full-stack amazon clone made by react and node. It is a fully functional e-commerce website with add to basket functionality, checkout page, payment page which takes real payment using stripe and an order's history page
