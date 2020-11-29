@@ -8,6 +8,7 @@ import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 import axios from './axios';
 import { db } from "./firebase";
+import Orders from './Orders';
 
 
 function Payment() {

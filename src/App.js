@@ -4,7 +4,6 @@ import Header from './Header'
 import Home from './Home'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Checkout from './Checkout';
-import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from './StateProvider';
 import { loadStripe } from "@stripe/stripe-js";
@@ -44,30 +43,23 @@ function App() {
       <div className="app">
      
         <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
           <Route path="/checkout">
-            <Header />
+            <Header/>
             <Checkout />
-            <CustomFooter />
           </Route>
           <Route path="/payment">
             <Header />
             <Elements stripe={promise}>
               <Payment />
             </Elements>
-            <CustomFooter />
           </Route>
           <Route path="/orders">
             <Header />
             <Orders />
-            <CustomFooter />
           </Route>
           <Route path="/">
             <Header />
             <Home />
-            <CustomFooter />
           </Route>
         </Switch>
       </div>
